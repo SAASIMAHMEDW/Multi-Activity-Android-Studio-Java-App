@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".successActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="617dp"
+        android:layout_marginBottom="400dp"
+        android:contentDescription="@string/Dummy"
+        android:src="@drawable/f3"
+
+        app:srcCompat="@drawable/f3"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-168dp" />
+
+    <TextView
+        android:id="@+id/fullNameDataTV"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="190dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/fNameTV"
+        android:layout_width="234dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:textColor="#EF6C00"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/LnameTV"
+        android:layout_width="234dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="290dp"
+        android:textAlignment="center"
+        android:textColor="#EF6C00"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/passwordTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="620dp"
+        android:text="password:"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <TextView
+        android:id="@+id/AboutAndGenderDataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:text=""
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/passwordHintTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="710dp"
+        android:text="passwordHint:"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="540dp"
+        android:text="email:"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/emailDataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailTV"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:textSize="34sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/passwordDataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTV"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:textSize="34sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/passwordHintDataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordHintTV"
+        android:layout_marginStart="10dp"
+        android:text=""
+        android:textSize="34sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/goHomeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LnameTV"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FDC006"
+        android:text="Home"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ageDataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="330dp"
+        android:text=""
+        android:textColor="#FDC006"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AboutTVX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:text="About And Gender"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>
